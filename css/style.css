@@ -1,0 +1,223 @@
+
+
+body{
+    background-color:#ffb3ec;
+    font-family: 'Kalam', cursive;
+}
+
+
+header{
+    width: 100%;
+    height: 329px;
+    background-color :#c51d20eb;
+   
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+
+.foto{
+
+    width: 14%;
+    margin-top: 33px;
+    margin-left: 37px;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.custom-loader {
+    width: 209px;
+    height: 209px;
+    display: grid;
+    margin-top: -299px;
+    margin-left: 29px;
+    border-radius: 79%;
+    background:#000000c7;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-mask:
+      repeating-conic-gradient(#0000 0deg,#000 1deg 70deg,#0000 71deg 90deg),
+      radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 calc(100% - 8px));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation:s5 1.7s infinite ;
+   
+  }
+  @keyframes s5 {to{transform: rotate(.5turn)}}
+
+.menu{
+    position: absolute;
+    top: 26px;
+    left: 335px;
+}
+
+
+
+.listnav{
+    display: flex;
+    gap: 53px;
+    color: white;
+    margin: 0 auto;
+    font-size: 29px;
+    list-style: none;
+    
+    font-family: 'Kalam', cursive;
+}
+
+.r1{
+    width: 47px;
+    position: relative;
+    top: -70px;
+}
+
+.redes{
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 175px;
+}
+
+.codefoto{
+
+    display: flex;
+    position: absolute;
+    top: 118px;
+    width: 22%;
+    left: 1000px;
+}
+.imgcode{
+    position: absolute;
+    top: 350px;
+    left: 880px;
+}
+
+.nombre1 {
+    position: absolute;
+    top: 250px;
+    left: 35px;
+    color:  black;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+.sobre{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    top: 419px;
+    left: 92px;
+    flex-direction: column;
+    font-family: 'Kalam', cursive;
+}
+h3{
+    font-size: 23px;
+}
+
+.about{
+    font: menu;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.wrapper{
+    
+    position: absolute;
+    
+    width: 50%;
+    top: 100px;
+    left: 406px;
+    filter: brightness(88%);
+    -webkit-filter: brightness(88%);
+    -moz-filter: brightness(88%);
+}
+
+
+svg {
+	font-family: "Combo", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 8s infinite alternate;
+	stroke-width: 2;
+	stroke: #ffb5ec;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(254,224,240,0); stroke: rgba(247,220,241,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(254,224,240,0); stroke: rgba(247,220,241,1); }
+	80%  {fill: rgba(254,224,240,0); stroke: rgba(247,220,241,1); stroke-width: 3; }
+	100% {
+		fill: rgba(254,224,240,1); stroke: rgba(247,220,241,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color:transparent; }
+
+
+.Conocimientos{
+    display: flex;
+    position: relative;
+    top: 668px;
+    left: 56px;
+}
+
+.imglen{
+    width: 236px;
+    height: 224px;
+}
+
+
+
+
+.conocimientos1{
+    position: absolute;
+    top: 849px;
+    left: 78px;
+    font-size: 28px;
+}
+
+
+
+
+.educacion{
+    position: absolute;
+    top: 1261px;
+    left: 46px;
+
+}
+
+.Dos{
+    width: 430px;
+
+}
+
+.formacion{
+    position: absolute;
+    top: 1235px;
+    left: 78px;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
